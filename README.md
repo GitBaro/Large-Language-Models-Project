@@ -1,11 +1,19 @@
 # LLM Project
 
 ## Project Task
-(fill in details about your chosen project)
+
+Document Summarization Tool: Develop a tool that can summarize long documents into key points and sections, making them easier to digest for the readers.
 
 ## Dataset
-(fill in details about the dataset you're using)
 
+Dataset Summary
+Multi-News, consists of news articles and human-written summaries of these articles from the site newser.com. Each summary is professionally written by editors and includes links to the original articles cited.
+
+There are two features:
+
+document: text of news articles seperated by special token "|||||".
+summary: news summary.
+Supported Tasks and Leaderboards
 ## Pre-trained Model
 (fill in details about the pre-trained model you selected)
 
