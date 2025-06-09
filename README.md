@@ -11,9 +11,9 @@ Multi-News, consists of news articles and human-written summaries of these artic
 
 There are two features:
 
-document: text of news articles seperated by special token "|||||".
-summary: news summary.
-Supported Tasks and Leaderboards
+- document: text of news articles seperated by special token "|||||".
+- summary: news summary.
+
 ## Pre-trained Model
 (fill in details about the pre-trained model you selected)
 
