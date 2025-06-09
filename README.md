@@ -42,8 +42,8 @@ It achieves the following results on the evaluation set:
 ## Hyperparameters
 
 The hyperparameters I found most important and relevant while optimizing my model were:
-learning_rate,
-per_device_train_batch_size,
-per_device_eval_batch_size,
-num_train_epochs,
-warmup_steps
+- learning_rate
+- per_device_train_batch_size
+- per_device_eval_batch_size
+- num_train_epochs
+- warmup_steps
