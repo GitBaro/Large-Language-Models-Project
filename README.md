@@ -31,8 +31,19 @@ The developers write in a blog post that the model:
 Our text-to-text framework allows us to use the same model, loss function, and hyperparameters on any NLP task, including machine translation, document summarization, question answering, and classification tasks (e.g., sentiment analysis). We can even apply T5 to regression tasks by training it to predict the string representation of a number instead of the number itself.
 
 ## Performance Metrics
-(fill in details about your chosen metrics and results)
+My chosen performance metrics was using Rouge.
+It achieves the following results on the evaluation set:
+- Loss: 5.7052
+- Rouge1: 0.3780
+- Rouge2: 0.0738
+- Rougel: 0.2719
+- Rougelsum: 0.3092
 
 ## Hyperparameters
-(fill in details about which hyperparemeters you found most important/relevant while optimizing your model)
 
+The hyperparameters I found most important and relevant while optimizing my model were:
+learning_rate,
+per_device_train_batch_size,
+per_device_eval_batch_size,
+num_train_epochs,
+warmup_steps
