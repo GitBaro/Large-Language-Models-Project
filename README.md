@@ -18,6 +18,8 @@ https://huggingface.co/HFBaro/Large-Language-Models-Project
 ### Dataset Summary
 Multi-News, consists of news articles and human-written summaries of these articles from the site newser.com. Each summary is professionally written by editors and includes links to the original articles cited.
 
+Multi-News Dataset Link: https://huggingface.co/datasets/alexfabbri/multi_news
+
 There are two features:
 
 - document: text of news articles seperated by special token "|||||".
