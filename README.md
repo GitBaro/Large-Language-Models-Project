@@ -11,7 +11,6 @@
 Document Summarization Tool: Develop a tool that can summarize long documents into key points and sections, making them easier to digest for the readers.
 
 My HuggingFace Model Link:
-
 https://huggingface.co/HFBaro/Large-Language-Models-Project
 
 ## Dataset
