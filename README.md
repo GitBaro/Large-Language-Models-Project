@@ -1,5 +1,11 @@
 # LLM Project
 
+### Notebooks would not upload properly, please see these links to google collabs. 
+[Preprocessing](https://colab.research.google.com/drive/1RHpvMXorbQCSCzSvlye5sLN7c0eDLGxA#scrollTo=O2kpmZaEdZ0z)
+[Representation](https://colab.research.google.com/drive/1M6UltVPh_HoUPlJzLhxEGi79O-rEQTpi#scrollTo=KAikIGa5kPpz)
+[Pre-Trained Model](https://colab.research.google.com/drive/1oPaL8uHaa1-b0BYu_n6nybxK6T9S96BR#scrollTo=lsiC1u21-Ifi)
+[Optimization](https://colab.research.google.com/drive/1niI11aARnmpsV_8O42Ge7yuIJRJfh8kd#scrollTo=ORshxmM4UNnD&uniqifier=1)
+
 ## Project Task
 
 Document Summarization Tool: Develop a tool that can summarize long documents into key points and sections, making them easier to digest for the readers.
