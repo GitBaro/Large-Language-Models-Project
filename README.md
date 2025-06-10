@@ -29,7 +29,7 @@ The dataset contains a train and a test split.
 
 ## Pre-trained Model
 
-The pretrained models I used were BART Large and T5 Small.
+The pretrained models I used were BART Large and T5 Small. I used both these models because they are standard document summarization models which respectively work effectively for training models on large and small datasets.
 
 ### Model Description: BART
 
@@ -50,17 +50,15 @@ Our text-to-text framework allows us to use the same model, loss function, and h
 ## Performance Metrics
 My chosen performance metrics was using Rouge.
 It achieves the following results on the evaluation set:
-- Loss: 5.7052
-- Rouge1: 0.3780
-- Rouge2: 0.0738
-- Rougel: 0.2719
-- Rougelsum: 0.3092
+- Loss: 5.7059
+- Rouge1: 0.3782
+- Rouge2: 0.0730
+- Rougel: 0.2713
+- Rougelsum: 0.3079
 
 ## Hyperparameters
 
 The hyperparameters I found most important and relevant while optimizing my model were:
-- learning_rate
-- per_device_train_batch_size
-- per_device_eval_batch_size
-- num_train_epochs
-- warmup_steps
+- learning_rate: Because it determines and adjusts how quick the model learns, kept low because using pre-trained model and trying to avoid messing with the models pre-trained knowledge
+- batch_size: Because it determines training speed and stability, as well as determining how much memory usage while training the model. Kept to a side where its able to train the model without crashing due to memory usage
+- num_train_epochs: Because it determines how many times the dataset is seen by the model, allowoing it to learn more but also not enough to overfit depending on the size of the model
