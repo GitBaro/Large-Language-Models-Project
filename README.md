@@ -18,10 +18,16 @@ The dataset contains a train and a test split.
 
 ## Pre-trained Model
 
-The pretrained model I used was T5 Small.
+The pretrained models I used were BART Large and T5 Small.
 
-### Model Description
+### Model Description: BART
+
+BART is a transformer encoder-encoder (seq2seq) model with a bidirectional (BERT-like) encoder and an autoregressive (GPT-like) decoder. BART is pre-trained by (1) corrupting text with an arbitrary noising function, and (2) learning a model to reconstruct the original text.
+
+BART is particularly effective when fine-tuned for text generation (e.g. summarization, translation) but also works well for comprehension tasks (e.g. text classification, question answering). This particular checkpoint has been fine-tuned on CNN Daily Mail, a large collection of text-summary pairs.
 The developers of the Text-To-Text Transfer Transformer (T5) write:
+
+### Model Description: T5 Small
 
 With T5, we propose reframing all NLP tasks into a unified text-to-text-format where the input and output are always text strings, in contrast to BERT-style models that can only output either a class label or a span of the input. Our text-to-text framework allows us to use the same model, loss function, and hyperparameters on any NLP task.
 
