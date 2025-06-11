@@ -4,7 +4,7 @@
 [Preprocessing](https://colab.research.google.com/drive/1RHpvMXorbQCSCzSvlye5sLN7c0eDLGxA#scrollTo=O2kpmZaEdZ0z)
 [Representation](https://colab.research.google.com/drive/1M6UltVPh_HoUPlJzLhxEGi79O-rEQTpi#scrollTo=KAikIGa5kPpz)
 [Pre-Trained Model](https://colab.research.google.com/drive/1oPaL8uHaa1-b0BYu_n6nybxK6T9S96BR#scrollTo=lsiC1u21-Ifi)
-[Optimization](https://colab.research.google.com/drive/1RHpvMXorbQCSCzSvlye5sLN7c0eDLGxA#scrollTo=O2kpmZaEdZ0z)
+[Optimization](https://colab.research.google.com/drive/1niI11aARnmpsV_8O42Ge7yuIJRJfh8kd#scrollTo=1u2I6lpSk3_m&uniqifier=1)
 
 ## Project Task
 
@@ -48,7 +48,10 @@ The developers write in a blog post that the model:
 Our text-to-text framework allows us to use the same model, loss function, and hyperparameters on any NLP task, including machine translation, document summarization, question answering, and classification tasks (e.g., sentiment analysis). We can even apply T5 to regression tasks by training it to predict the string representation of a number instead of the number itself.
 
 ## Performance Metrics
-My chosen performance metrics was using Rouge.
+My chosen performance metrics was using Rouge. ROUGE stands for Recall-Oriented Understudy for Gisting Evaluation. It’s a set of metrics designed to compare automatically generated text (e.g. a summary) to one or more reference texts (usually human-written summaries). It measures how much overlap there is between the model-generated summary and the reference summary.
+
+It provides a quantitative way to evaluate summarization quality by checking how well the model captures key content from the reference summary.
+
 It achieves the following results on the evaluation set:
 - Loss: 5.7059
 - Rouge1: 0.3782
